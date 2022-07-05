@@ -10,7 +10,7 @@ public class Constants {
 	public static final String ACCOUNT_PAGE_HEADER_TITLE = "naveenopencart";
 	
 	public static final  String LOGIN_PAGE_URL_FRACTION = "route=account/login";
-	public static final int DEFAULT_TIME_OUT = 5;
+	public static final int DEFAULT_TIME_OUT = 6;
 	public static final int IMAC_IMAGE_COUNT = 3;
 	
 	public static final String LOGIN_ERROR_MESSG = "No match for E-Mail Address and/or Password.";
