@@ -3,7 +3,7 @@ pipeline
     agent any
     
     tools{
-    	maven 'maven'
+    	maven 'mymaven'
         }
 
     stages 
@@ -29,7 +29,7 @@ pipeline
         stage('Regression Automation Test') {
             steps {
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
-                    git 'https://github.com/naveenanimation20/Sept2021POM.git'
+                    git 'https://github.com/parthasm95/MyPOMOpencartProject.git'
                     sh "mvn clean install"
                 }
             }
